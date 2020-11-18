@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+ 
+<svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(10  0)">
+    <rect x="0" y="0" width="1000" height="1000"  fill="none" stroke="#010101" stroke-width="1" />
+<g transform="translate(735.841910 755.62760) rotate(180)"> 
+<polygon fill="none" stroke="#010101" points="578.312,722.627 605.928,750.635 730.885,743.895 652.973,718.995 609.879,700.323 " /></g> 
+<g transform="translate(513.75810 -405.02630) rotate(90)"> 
+<polygon fill="none" stroke="#010101" points="447.82,473.495 428.112,505.654 482.95,508.766 521.641,491.13 471.161,494.242 468.322,471.419 " /></g> 
+<g transform="translate(-272.873310 -352.45610) rotate(0)"> 
+<rect x="305.408" y="427.01" width="17.01" height="40.393" fill="none" stroke="#010101" /></g> 
+<g transform="translate(-131.724310 -416.88710) rotate(0)"> 
+<rect x="184.038" y="464.809" width="25.963" height="17.637" fill="none" stroke="#010101" /></g> 
+<g transform="translate(747.841210 526.04290) rotate(180)"> 
+<polygon fill="none" stroke="#010101" stroke-miterlimit="10" points="684.045,443.734 688.396,447.215  666.488,450.935 666.488,432.651 " /></g> 
+</g> 
+</svg>
