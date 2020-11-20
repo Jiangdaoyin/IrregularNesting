@@ -25,7 +25,6 @@ D:\Code\Office\NestingPlugin\Nesting With UI\Nesting With UI\clipper\obj\Debug\c
 D:\Code\Office\NestingPlugin\Nesting With UI\Nesting With UI\clipper\obj\Debug\clipper_library.pdb
 C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\bin\Debug\clipper_library.dll
 C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\bin\Debug\clipper_library.pdb
-C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\obj\Debug\clipper_library.csprojAssemblyReference.cache
 C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\obj\Debug\clipper_library.csproj.CoreCompileInputs.cache
 C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\obj\Debug\clipper_library.dll
 C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\obj\Debug\clipper_library.pdb

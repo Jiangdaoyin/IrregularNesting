@@ -57,6 +57,7 @@ namespace NestingLibPort
          */
         public List<List<Placement>> startNest()
         {
+            //去除parts点中有孔的点，只对最外围的零件进行排样
             List<NestPath> tree = CommonUtil.BuildTree(parts, Config.CURVE_TOLERANCE);
 
             CommonUtil.offsetTree(tree, 0.5 * config.SPACING);

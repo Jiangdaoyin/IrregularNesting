@@ -13,8 +13,6 @@ namespace NestingLibPort.Util
 
     public class CommonUtil
     {
-
-
         public static NestPath Path2NestPath(Path path)
         {
             NestPath nestPath = new NestPath();

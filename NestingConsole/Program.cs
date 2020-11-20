@@ -26,7 +26,8 @@ namespace NestingConsole
             bin.add(binWidth, binHeight);
             bin.add(0, binHeight);
             Console.WriteLine("Bin Size : Width = " + binWidth + " Height=" + binHeight);
-            var nestPaths = SvgUtil.transferSvgIntoPolygons("test1.xml");
+            //将多边形转换为坐标形式
+            var nestPaths = SvgUtil.transferSvgIntoPolygons("test3.xml");
             Console.WriteLine("Reading File = test1.xml");
             Console.WriteLine("No of parts = " + nestPaths.Count);
             Config config = new Config();
