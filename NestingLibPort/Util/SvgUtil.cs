@@ -54,7 +54,7 @@ namespace NestingLibPort.Util
         public static List<String> svgGenerator(List<NestPath> list, List<List<Placement>> applied, double binwidth, double binHeight)
         {
             List<String> strings = new List<String>();
-            int x = 10;
+            int x = 0;
             int y = 0;
             foreach (List<Placement> binlist in applied)
             {
@@ -67,7 +67,11 @@ namespace NestingLibPort.Util
                     double ox = placement.translate.x;
                     double oy = placement.translate.y;
                     double rotate = placement.rotate;
-                    s += "<g transform=\"translate(" + ox + x + " " + oy + y + ") rotate(" + rotate + ")\"> \n";
+
+                    var translateX = ox + x;
+                    var translateY = oy + y;
+
+                    s += "<g transform=\"translate(" + translateX + " " + translateY + ") rotate(" + rotate + ")\"> \n";
                     //s += "<path d=\"";
                     //for (int i = 0; i < nestPath.getSegments().Count; i++)
                     //{
@@ -112,11 +116,18 @@ namespace NestingLibPort.Util
 
             XDocument document = XDocument.Load(xmlFilePath);
             List<XElement> elementList = document.Root.DescendantNodes().OfType<XElement>().ToList();
+            //对于测试库的数据，需要做一下筛选，如果是自己弄得测试数据，这句可以不要
+            var elements = elementList.Where(p => p.Name == "polygon");
             int count = 0;
-            foreach (XElement element in elementList)
+            int index = 0;
+            foreach (XElement element in elements)
             {
                 count++;
-                switch (element.Name.ToString())
+                //对于测试库的数据要加上这一句
+                var elementFirstNode = (XElement)element.FirstNode;
+                var rotation = int.Parse(element.Attributes((XName)"nVertices").ToList()[0].Value.ToString());
+
+                switch (elementFirstNode.Name.ToString())
                 {
                     case "polyline":
                     case "polygon":
@@ -139,6 +150,45 @@ namespace NestingLibPort.Util
                             polygon.bid = count;//多边形的序号
                             polygon.setRotation(4);//旋转角度，值设为4时代表角度可以旋转90、180、270，该值一般为360的倍数
                             nestPaths.Add(polygon);
+                            break;
+                        }
+                    case "lines":
+                        {
+                            index++;
+                            var piesCount = int.Parse(elementFirstNode.Attributes((XName)"count").ToList()[0].Value.ToString());
+                            var dataList = elementFirstNode.DescendantNodes().OfType<XElement>().ToList();
+                            NestPath polygon = new NestPath();
+                            string point = null;
+                            foreach (var data in dataList)
+                            {
+                                if (data.Name == "segment")
+                                {
+                                    var x0 = Double.Parse(data.Attributes((XName)"x0").ToList()[0].Value.ToString()) + 2000 * index;
+                                    var y0 = Double.Parse(data.Attributes((XName)"y0").ToList()[0].Value.ToString()) + 2000 * index;
+                                    var x1 = Double.Parse(data.Attributes((XName)"x1").ToList()[0].Value.ToString()) + 2000 * index;
+                                    var y1 = Double.Parse(data.Attributes((XName)"y1").ToList()[0].Value.ToString()) + 2000 * index;
+                                    point += x0 + "," + y0 + " ";
+                                    polygon.add(x0, y0);
+                                    polygon.add(x1, y1);
+                                }
+                            }
+
+                            var listTemp = polygon.getSegments();
+                            var newList = new List<Segment>();
+                            for (int i = 0; i < listTemp.Count; i++)
+                            {
+                                if (i % 2 == 0)
+                                    newList.Add(listTemp[i]);
+                            }
+                            polygon.setSegments(newList);
+                            polygon.bid = count;//多边形的序号
+                            polygon.setRotation(rotation);//旋转角度，值设为4时代表角度可以旋转90、180、270，该值一般为360的倍数
+                            var elementTemp = " <polygon fill=\"none\" stroke=\"#010101\" stroke-miterlimit=\"10\" points= \"" + point + " \"></polygon>";
+                            for (int i = 0; i < piesCount; i++)
+                            {
+                                polygon.setElement(elementTemp);
+                                nestPaths.Add(polygon);
+                            }
                             break;
                         }
                     case "rect":

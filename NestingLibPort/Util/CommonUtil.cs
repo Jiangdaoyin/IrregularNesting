@@ -161,6 +161,7 @@ namespace NestingLibPort.Util
             return normal;
         }
 
+        //图像偏置算法
         public static void offsetTree(List<NestPath> t, double offset)
         {
             

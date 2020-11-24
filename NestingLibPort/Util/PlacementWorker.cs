@@ -42,6 +42,7 @@ namespace NestingLibPort.Util
             List<NestPath> rotated = new List<NestPath>();
             for (int i = 0; i < paths.Count; i++)
             {
+                //返回旋转后的多边形
                 NestPath r = GeometryUtil.rotatePolygon2Polygon(paths[i], paths[i].getRotation());
                 r.setRotation(paths[i].getRotation());
                 r.setSource(paths[i].getSource());
