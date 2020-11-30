@@ -28,3 +28,4 @@ C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\bin\D
 C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\obj\Debug\clipper_library.csproj.CoreCompileInputs.cache
 C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\obj\Debug\clipper_library.dll
 C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\obj\Debug\clipper_library.pdb
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\clipper\obj\Debug\clipper_library.csprojAssemblyReference.cache

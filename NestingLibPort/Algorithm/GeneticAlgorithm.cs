@@ -30,6 +30,7 @@ namespace NestingLibPort.Algorithm
         public void generation()
         {
             List<Individual> newpopulation = new List<Individual>();
+            //根据fitness的值对种群进行排序
             population.Sort();
 
             newpopulation.Add(population[0]);
@@ -143,8 +144,10 @@ namespace NestingLibPort.Algorithm
         private void init()
         {
             angles = new List<double>();
+            //为每个多边形设置一个旋转角度
             for (int i = 0; i < adam.Count; i++)
             {
+                var a = adam[i];
                 double angle = randomAngle(adam[i]);
                 angles.Add(angle);
             }
@@ -156,6 +159,7 @@ namespace NestingLibPort.Algorithm
             }
         }
 
+        //根据变异概率来调整排样顺序和旋转角度
         private Individual mutate(Individual individual)
         {
 
@@ -163,6 +167,7 @@ namespace NestingLibPort.Algorithm
             for (int i = 0; i < clone.placement.Count; i++)
             {
                 double random = new Random().NextDouble();
+                //根据变异概率调整排样顺序
                 if (random < 0.01 * config.MUTATION_RATE)
                 {
                     int j = i + 1;
@@ -174,6 +179,7 @@ namespace NestingLibPort.Algorithm
                     }
                 }
                 random = new Random().NextDouble();
+                //根据变异概率调整旋转角度
                 if (random < 0.01 * config.MUTATION_RATE)
                 {
                    clone.getRotation()[i] = randomAngle(clone.placement[i]);
@@ -204,6 +210,7 @@ namespace NestingLibPort.Algorithm
                     angleList.Add((360 / rotate) * i);
                 }
             }
+            //打乱角度列表的排序
             angleList.Shuffle();
             //Collections.shuffle(angleList);
             for (int i = 0; i < angleList.Count; i++)

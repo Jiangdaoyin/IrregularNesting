@@ -54,8 +54,8 @@ namespace NestingLibPort.Util
         public static List<String> svgGenerator(List<NestPath> list, List<List<Placement>> applied, double binwidth, double binHeight)
         {
             List<String> strings = new List<String>();
-            int x = 0;
-            int y = 0;
+            int x = 0;//代表离y轴初始边的距离
+            int y = 0;//代表离轴初始边的距离
             foreach (List<Placement> binlist in applied)
             {
                 String s = " <g transform=\"translate(" + x + "  " + y + ")\">" + "\n";
@@ -91,7 +91,7 @@ namespace NestingLibPort.Util
                     s += "</g> \n";
                 }
                 s += "</g> \n";
-                y += (int)(binHeight + 50);
+                y += (int)(binHeight + 0);
                 strings.Add(s);
             }
             return strings;
@@ -163,10 +163,11 @@ namespace NestingLibPort.Util
                             {
                                 if (data.Name == "segment")
                                 {
-                                    var x0 = Double.Parse(data.Attributes((XName)"x0").ToList()[0].Value.ToString()) + 2000 * index;
-                                    var y0 = Double.Parse(data.Attributes((XName)"y0").ToList()[0].Value.ToString()) + 2000 * index;
-                                    var x1 = Double.Parse(data.Attributes((XName)"x1").ToList()[0].Value.ToString()) + 2000 * index;
-                                    var y1 = Double.Parse(data.Attributes((XName)"y1").ToList()[0].Value.ToString()) + 2000 * index;
+                                    //为了保证在排样前各个图形的坐标不重合，所以后面增加2000 * index
+                                    var x0 = Double.Parse(data.Attributes((XName)"x0").ToList()[0].Value.ToString()) + 20 * index;
+                                    var y0 = Double.Parse(data.Attributes((XName)"y0").ToList()[0].Value.ToString()) + 20 * index;
+                                    var x1 = Double.Parse(data.Attributes((XName)"x1").ToList()[0].Value.ToString()) + 20 * index;
+                                    var y1 = Double.Parse(data.Attributes((XName)"y1").ToList()[0].Value.ToString()) + 20 * index;
                                     point += x0 + "," + y0 + " ";
                                     polygon.add(x0, y0);
                                     polygon.add(x1, y1);

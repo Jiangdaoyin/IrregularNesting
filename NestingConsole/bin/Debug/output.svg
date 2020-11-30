@@ -7,175 +7,91 @@
 xmlns="http://www.w3.org/2000/svg">
  <g transform="translate(0  0)">
     <rect x="0" y="0" width="75" height="41"  fill="none" stroke="#010101" stroke-width="1" />
-<g transform="translate(6012 6007.9999) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "6000,6000 6003,6000 6003,5999 6005,6000 6008,6000 6011,5999 6012,6004 6011,6008 6007,6007 6000,6007  "></polygon></g> 
-<g transform="translate(8394.4149 1341.6997) rotate(144)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "6000,6000 6003,6000 6003,5999 6005,6000 6008,6000 6011,5999 6012,6004 6011,6008 6007,6007 6000,6007  "></polygon></g> 
-<g transform="translate(7574.2278 -3831.0623) rotate(108)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "6000,6000 6003,6000 6003,5999 6005,6000 6008,6000 6011,5999 6012,6004 6011,6008 6007,6007 6000,6007  "></polygon></g> 
-<g transform="translate(3870.489 -7554.4722) rotate(72)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "6000,6000 6003,6000 6003,5999 6005,6000 6008,6000 6011,5999 6012,6004 6011,6008 6007,6007 6000,6007  "></polygon></g> 
-<g transform="translate(6023.3228 6033.8476) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "6000,6000 6003,6000 6003,5999 6005,6000 6008,6000 6011,5999 6012,6004 6011,6008 6007,6007 6000,6007  "></polygon></g> 
-<g transform="translate(-3830.562 7573.7093) rotate(252)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "6000,6000 6003,6000 6003,5999 6005,6000 6008,6000 6011,5999 6012,6004 6011,6008 6007,6007 6000,6007  "></polygon></g> 
-<g transform="translate(3879.8368 -7545.5508) rotate(72)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "6000,6000 6003,6000 6003,5999 6005,6000 6008,6000 6011,5999 6012,6004 6011,6008 6007,6007 6000,6007  "></polygon></g> 
-<g transform="translate(1359.9835 8420.7891) rotate(216)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "6000,6000 6003,6000 6003,5999 6005,6000 6008,6000 6011,5999 6012,6004 6011,6008 6007,6007 6000,6007  "></polygon></g> 
-<g transform="translate(4012 4039.202) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "4000,4000 4011,4000 4012,4002 4011,4003 4011,4005 4010,4006 4006,4005 4003,4006 4000,4005 3999,4003  "></polygon></g> 
-<g transform="translate(919.9829 5597.9408) rotate(216)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "4000,4000 4011,4000 4012,4002 4011,4003 4011,4005 4010,4006 4006,4005 4003,4006 4000,4005 3999,4003  "></polygon></g> 
-<g transform="translate(5627.764 898.8936) rotate(144)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "4000,4000 4011,4000 4012,4002 4011,4003 4011,4005 4010,4006 4006,4005 4003,4006 4000,4005 3999,4003  "></polygon></g> 
-<g transform="translate(4042.479 4030.5137) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "4000,4000 4011,4000 4012,4002 4011,4003 4011,4005 4010,4006 4006,4005 4003,4006 4000,4005 3999,4003  "></polygon></g> 
-<g transform="translate(-3966.9367 -3980.5901) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "4000,4000 4011,4000 4012,4002 4011,4003 4011,4005 4010,4006 4006,4005 4003,4006 4000,4005 3999,4003  "></polygon></g> 
-<g transform="translate(4046.4816 4040.9999) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "4000,4000 4011,4000 4012,4002 4011,4003 4011,4005 4010,4006 4006,4005 4003,4006 4000,4005 3999,4003  "></polygon></g> 
-<g transform="translate(-5549.3534 -877.4005) rotate(324)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "4000,4000 4011,4000 4012,4002 4011,4003 4011,4005 4010,4006 4006,4005 4003,4006 4000,4005 3999,4003  "></polygon></g> 
-<g transform="translate(4051.1119 4019.4098) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "4000,4000 4011,4000 4012,4002 4011,4003 4011,4005 4010,4006 4006,4005 4003,4006 4000,4005 3999,4003  "></polygon></g> 
-<g transform="translate(-1955.9675 -1971.8164) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "2000,2000 2007,2001 2007,2005 2000,2007 1999,2005 1999,2004 1998,2003 1999,2002  "></polygon></g> 
-<g transform="translate(-2784.3639 23.9454) rotate(315)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "2000,2000 2007,2001 2007,2005 2000,2007 1999,2005 1999,2004 1998,2003 1999,2002  "></polygon></g> 
-<g transform="translate(-2782.7033 9.3141) rotate(315)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "2000,2000 2007,2001 2007,2005 2000,2007 1999,2005 1999,2004 1998,2003 1999,2002  "></polygon></g> 
-<g transform="translate(2054.4816 2040.9999) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "2000,2000 2007,2001 2007,2005 2000,2007 1999,2005 1999,2004 1998,2003 1999,2002  "></polygon></g> 
-<g transform="translate(2057.292 -1973.4074) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "2000,2000 2007,2001 2007,2005 2000,2007 1999,2005 1999,2004 1998,2003 1999,2002  "></polygon></g> 
-<g transform="translate(2887.4226 19.0789) rotate(135)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "2000,2000 2007,2001 2007,2005 2000,2007 1999,2005 1999,2004 1998,2003 1999,2002  "></polygon></g> 
-<g transform="translate(2889.0598 10.1967) rotate(135)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "2000,2000 2007,2001 2007,2005 2000,2007 1999,2005 1999,2004 1998,2003 1999,2002  "></polygon></g> 
-<g transform="translate(58.8808 2857.1378) rotate(225)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "2000,2000 2007,2001 2007,2005 2000,2007 1999,2005 1999,2004 1998,2003 1999,2002  "></polygon></g> 
-<g transform="translate(-15987.8989 -15961) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(-15986.9326 -15963) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(-15966.8314 -16000) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(14.3235 -22608.5338) rotate(45)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(60.3356 22634.488) rotate(225)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(16063.2778 16035.5924) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(62.0967 22646.7686) rotate(225)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(-15944.185 -15961) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(-22569.261 32.2639) rotate(315)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(16001.9999 -15974.7978) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(63.164 22634.488) rotate(225)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(-22568.6148 12.296) rotate(315)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(-22567.6669 14.1765) rotate(315)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(-15943.0183 -15963) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(61.0964 -22609.0299) rotate(45)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "16000,16000 16008,16000 16008,16002 16006,16002 16004,16001 16003,16001 16002,16002 15999,16002  "></polygon></g> 
-<g transform="translate(1785.0901 11181.3665) rotate(216)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(5155.6859 -10062.3649) rotate(72)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(11199.8362 1808.5027) rotate(144)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(5166.541 -10073.366) rotate(72)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(-10031.8401 5140.1203) rotate(288)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(5174.9242 -10050.0741) rotate(72)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(1833.5674 11178.6082) rotate(216)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(1834.3628 11192.6937) rotate(216)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(11240.8491 1801.0952) rotate(144)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(11242.3609 1789.5002) rotate(144)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(11242.6677 1804.5468) rotate(144)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(-7935.4156 -7988.3776) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(-7935.2773 -7997.1987) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(-10015.7431 5176.3891) rotate(288)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(1837.3123 11203.7861) rotate(216)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "8000,8000 8004,8000 8004,8002 8003,8003 8000,8003  "></polygon></g> 
-<g transform="translate(10008 10040.9999) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "10000,10000 10008,10000 10007,10001 10001,10001  "></polygon></g> 
-<g transform="translate(12001 -11979.7978) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(-12000 -11988.3672) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(-11998.9998 12024.7023) rotate(270)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(-12000 -11989.3672) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(12004 12010.6326) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(12003 -11975.1887) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(12003 -11979.1887) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(12020.9801 -11977.1522) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(-11998 -11967.7979) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(-11995.0005 -12000) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(12016 12002.7581) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(-11947.5554 12006.1355) rotate(270)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(-11933.3115 12009.8012) rotate(270)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(12016 12001.7581) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(12067.753 -11978.8222) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "12000,12000 12004,12000 12004,12001 12000,12001  "></polygon></g> 
-<g transform="translate(14011.0805 14019.3205) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(14015.7514 14035.7047) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(-13996.9998 14027.2133) rotate(270)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(14014.8108 -13976.7802) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(14021.9801 -13976.1522) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(14016 14036.9997) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(14026.1728 -13964.689) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(14027.1728 -13962) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(-13984.2486 -13965.0002) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(-13963.9213 14004.09) rotate(270)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(-13962.9213 14005.4051) rotate(270)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(14040.5829 -13969.4861) rotate(90)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(14019 14036.9997) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(14021.7514 14035.9997) rotate(180)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
-<g transform="translate(-13978.7656 -13986.7316) rotate(0)"> 
- <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "14000,14000 14003,14000 14003,14001 14000,14001  "></polygon></g> 
+<g transform="translate(46 -40) rotate(90)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "40,40 46,34 52,40 46,46  "></polygon></g> 
+<g transform="translate(46 -28) rotate(90)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "40,40 46,34 52,40 46,46  "></polygon></g> 
+<g transform="translate(-40 -10) rotate(0)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "40,40 46,34 52,40 46,46  "></polygon></g> 
+<g transform="translate(52 -22) rotate(90)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "40,40 46,34 52,40 46,46  "></polygon></g> 
+<g transform="translate(-27.9997 58) rotate(270)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "40,40 46,34 52,40 46,46  "></polygon></g> 
+<g transform="translate(53 -11) rotate(90)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "40,40 46,34 52,40 46,46  "></polygon></g> 
+<g transform="translate(-28 -22) rotate(0)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "40,40 46,34 52,40 46,46  "></polygon></g> 
+<g transform="translate(43.9998 7) rotate(90)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(-12.3848 9.8994) rotate(315)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(-9.7488 23.4645) rotate(315)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(48.9998 7) rotate(90)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(61.1542 7.0711) rotate(135)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(28.8197 -21.4054) rotate(45)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(33.3846 63.7695) rotate(225)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(-0.9706 37.3137) rotate(315)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(32.87 -28.2842) rotate(45)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(64.2841 45.3137) rotate(180)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(75.9531 31.1006) rotate(135)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(19.7694 40.3138) rotate(270)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(14.2841 -19.3434) rotate(0)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(24.669 60.1007) rotate(270)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(78.2841 46.1006) rotate(180)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "20,20 22,20 22,23 32,23 32,20 34,20 34,25 20,25  "></polygon></g> 
+<g transform="translate(60.8295 81.4104) rotate(196.363636363636)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "60,60 66,60 66,58 67,58 71,62 71,64 68,64 68,61 62,61 62,64 60,64  "></polygon></g> 
+<g transform="translate(-38.1443 -0.301) rotate(327.272727272727)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "60,60 66,60 66,58 67,58 71,62 71,64 68,64 68,61 62,61 62,64 60,64  "></polygon></g> 
+<g transform="translate(130.9241 49.1999) rotate(163.636363636364)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "60,60 66,60 66,58 67,58 71,62 71,64 68,64 68,61 62,61 62,64 60,64  "></polygon></g> 
+<g transform="translate(33.5986 -82.9137) rotate(32.7272727272727)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "60,60 66,60 66,58 67,58 71,62 71,64 68,64 68,61 62,61 62,64 60,64  "></polygon></g> 
+<g transform="translate(143.2567 7.818) rotate(130.909090909091)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "60,60 66,60 66,58 67,58 71,62 71,64 68,64 68,61 62,61 62,64 60,64  "></polygon></g> 
+<g transform="translate(123.0333 -20.4538) rotate(98.1818181818182)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "60,60 66,60 66,58 67,58 71,62 71,64 68,64 68,61 62,61 62,64 60,64  "></polygon></g> 
+<g transform="translate(135.8036 67.2102) rotate(163.636363636364)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "60,60 66,60 66,58 67,58 71,62 71,64 68,64 68,61 62,61 62,64 60,64  "></polygon></g> 
+<g transform="translate(-24.2821 65.2685) rotate(294.545454545455)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "60,60 66,60 66,58 67,58 71,62 71,64 68,64 68,61 62,61 62,64 60,64  "></polygon></g> 
+<g transform="translate(-3.7974 -42.8992) rotate(0)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "60,60 66,60 66,58 67,58 71,62 71,64 68,64 68,61 62,61 62,64 60,64  "></polygon></g> 
+<g transform="translate(173.1506 40.2438) rotate(150)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(89.6157 -79.6627) rotate(60)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(30.402 -108.5499) rotate(30)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(176.0907 52.1148) rotate(150)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(-48.3922 9.2538) rotate(330)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(-39.9375 120.4645) rotate(270)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(-17.9847 -72.7701) rotate(0)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(-15.0643 112.3513) rotate(270)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(-14.6682 97.2299) rotate(270)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(-15.1199 -76.7701) rotate(0)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(-13.0643 117.0073) rotate(270)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
+<g transform="translate(37.9216 -86.3948) rotate(30)"> 
+ <polygon fill="none" stroke="#010101" stroke-miterlimit="10" points= "80,80 82,80 82,78 84,78 84,80 86,80 86,82 84,82 84,84 82,84 82,82 80,82  "></polygon></g> 
 </g> 
 </svg>

@@ -439,15 +439,23 @@ namespace ClipperLib
       this.right = ir.right; this.bottom = ir.bottom;
     }
   }
+    /// <summary>
+    /// AND(Intersection求交)：获取两者相交的部分；
+    ///OR(Union求并)：获取两者并集部分；
+    ///NOT(difference求异)：获取Clip区域以外的区域；
+    ///XOR(exclusive求异或)：获取两个区域互不重复的区域；
+    /// </summary>
+    public enum ClipType { ctIntersection, ctUnion, ctDifference, ctXor };
+    /// <summary>
+    /// ptSubject代表被裁剪，ptClip代表裁剪
+    /// </summary>
+    public enum PolyType { ptSubject, ptClip };
 
-  public enum ClipType { ctIntersection, ctUnion, ctDifference, ctXor };
-  public enum PolyType { ptSubject, ptClip };
-  
-  //By far the most widely used winding rules for polygon filling are
-  //EvenOdd & NonZero (GDI, GDI+, XLib, OpenGL, Cairo, AGG, Quartz, SVG, Gr32)
-  //Others rules include Positive, Negative and ABS_GTR_EQ_TWO (only in OpenGL)
-  //see http://glprogramming.com/red/chapter11.html
-  public enum PolyFillType { pftEvenOdd, pftNonZero, pftPositive, pftNegative };
+    //By far the most widely used winding rules for polygon filling are
+    //EvenOdd & NonZero (GDI, GDI+, XLib, OpenGL, Cairo, AGG, Quartz, SVG, Gr32)
+    //Others rules include Positive, Negative and ABS_GTR_EQ_TWO (only in OpenGL)
+    //see http://glprogramming.com/red/chapter11.html
+    public enum PolyFillType { pftEvenOdd, pftNonZero, pftPositive, pftNegative };
   
   public enum JoinType { jtSquare, jtRound, jtMiter };
   public enum EndType { etClosedPolygon, etClosedLine, etOpenButt, etOpenSquare, etOpenRound };
@@ -4293,6 +4301,7 @@ namespace ClipperLib
         int delta = (IsClosed ? 1 : 0);
         int polyCnt = pattern.Count;
         int pathCnt = path.Count;
+        //result用来存储两个多边形的点两两相加的值
         Paths result = new Paths(pathCnt);
         if (IsSum)
           for (int i = 0; i < pathCnt; i++)
