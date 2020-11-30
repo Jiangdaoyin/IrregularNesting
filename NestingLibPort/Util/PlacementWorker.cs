@@ -42,6 +42,7 @@ namespace NestingLibPort.Util
             List<NestPath> rotated = new List<NestPath>();
             for (int i = 0; i < paths.Count; i++)
             {
+                //返回旋转后的多边形
                 NestPath r = GeometryUtil.rotatePolygon2Polygon(paths[i], paths[i].getRotation());
                 r.setRotation(paths[i].getRotation());
                 r.setSource(paths[i].getSource());
@@ -69,7 +70,7 @@ namespace NestingLibPort.Util
 
                     NestPath path = paths[i];
 
-                    //inner NFP
+                    //inner NFP 零件和底板之间的nfp
                     key = new JavaScriptSerializer().Serialize(new NfpKey(-1, path.getId(), true, 0, path.getRotation()));
 
                     //key = gson.toJson(new NfpKey(-1, path.getId(), true, 0, path.getRotation()));
@@ -151,6 +152,7 @@ namespace NestingLibPort.Util
                         for (int k = 0; k < nfp.Count; k++)
                         {
                             Path clone =PlacementWorker.scaleUp2ClipperCoordinates(nfp[k]);
+                            //两个零件之间的nfp要加上已经排放排放零件的位置
                             for (int m = 0; m < clone.Count; m++)
                             {
                                 long clx = (long)clone[m].X;

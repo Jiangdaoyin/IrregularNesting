@@ -26,10 +26,12 @@ namespace NestingLibPort.Util
             bool searchEdges = config.isCONCAVE();
             bool useHoles = config.isUSE_HOLE();
 
+            //获取按照旋转角度旋转后的多变形
             NestPath A = GeometryUtil.rotatePolygon2Polygon(pair.getA(), pair.getKey().getArotation());
             NestPath B = GeometryUtil.rotatePolygon2Polygon(pair.getB(), pair.getKey().getBrotation());
 
             List<NestPath> nfp;
+            //零件和底板之间生成nfp
             if (pair.getKey().isInside())
             {
                 if (GeometryUtil.isRectangle(A, 0.001))
@@ -120,6 +122,7 @@ namespace NestingLibPort.Util
                     }
                 }
 
+                //带孔多边形的处理，对孔做处理
                 if (useHoles && A.getChildren().Count > 0)
                 {
                     Bound Bbounds = GeometryUtil.getPolygonBounds(B);

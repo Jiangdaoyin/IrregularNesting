@@ -210,6 +210,7 @@ namespace NestingLibPort.Util
             {
                 return getPolygonBounds(polygon);
             }
+            //将角度转为弧度
             double Fangle = angle * Math.PI / 180;
             NestPath rotated = new NestPath();
             for (int i = 0; i < polygon.size(); i++)
@@ -280,7 +281,7 @@ namespace NestingLibPort.Util
         }
 
         /**
-         * 构建NFP
+         * 构建NFP，通过轨迹线法构建
          * @param A
          * @param B
          * @param inside
@@ -1362,6 +1363,7 @@ namespace NestingLibPort.Util
         {
             Path Ac = PlacementWorker.scaleUp2ClipperCoordinates(A);
             Path Bc = PlacementWorker.scaleUp2ClipperCoordinates(B);
+            //对B多边形取反，即-B
             for (int i = 0; i < Bc.Count; i++)
             {
                 long X = Bc[i].X;

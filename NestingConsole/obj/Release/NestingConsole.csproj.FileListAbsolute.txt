@@ -1,0 +1,12 @@
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\bin\Release\NestingConsole.exe.config
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\bin\Release\NestingConsole.exe
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\bin\Release\NestingConsole.pdb
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\bin\Release\NestingLibPort.dll
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\bin\Release\clipper_library.dll
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\bin\Release\NestingLibPort.pdb
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\bin\Release\clipper_library.pdb
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\obj\Release\NestingConsole.csprojAssemblyReference.cache
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\obj\Release\NestingConsole.csproj.CoreCompileInputs.cache
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\obj\Release\NestingConsole.csproj.CopyComplete
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\obj\Release\NestingConsole.exe
+C:\Users\edang\Desktop\重点研究的算法\Nest4J\NestingCShaprt\NestingConsole\obj\Release\NestingConsole.pdb

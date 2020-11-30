@@ -13,8 +13,6 @@ namespace NestingLibPort.Util
 
     public class CommonUtil
     {
-
-
         public static NestPath Path2NestPath(Path path)
         {
             NestPath nestPath = new NestPath();
@@ -163,6 +161,7 @@ namespace NestingLibPort.Util
             return normal;
         }
 
+        //图像偏置算法
         public static void offsetTree(List<NestPath> t, double offset)
         {
             

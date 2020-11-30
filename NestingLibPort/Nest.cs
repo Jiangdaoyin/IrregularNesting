@@ -57,16 +57,20 @@ namespace NestingLibPort
          */
         public List<List<Placement>> startNest()
         {
+            //去除parts点中有孔的点，只对最外围的零件进行排样
             List<NestPath> tree = CommonUtil.BuildTree(parts, Config.CURVE_TOLERANCE);
 
+            //根据设定的零件之间的距离，将图像由内向外进行偏置
             CommonUtil.offsetTree(tree, 0.5 * config.SPACING);
             binPath.config = config;
             foreach (NestPath nestPath in parts)
             {
                 nestPath.config = config;
             }
+            //自相交多边形的清理
             NestPath binPolygon = NestPath.cleanNestPath(binPath);
             Bound binBound = GeometryUtil.getPolygonBounds(binPolygon);
+            //如果零件之间设定了间距，则底板也需要进行偏置
             if (config.SPACING > 0)
             {
                 List<NestPath> offsetBin = CommonUtil.polygonOffset(binPolygon, -0.5 * config.SPACING);
@@ -75,8 +79,9 @@ namespace NestingLibPort
                     binPolygon = offsetBin[0];
                 }
             }
-            binPolygon.setId(-1);
+            binPolygon.setId(-1);//这个是用来干嘛的？可能是为了让底板的编号特殊一些
 
+            //判断零件是否都能在底板中放置，如果零件的大小超过底板的大小，则直接清除
             List<int> integers = checkIfCanBePlaced(binPolygon, tree);
             List<NestPath> safeTree = new List<NestPath>();
             foreach (int i in integers)
@@ -84,42 +89,7 @@ namespace NestingLibPort
                 safeTree.Add(tree[i]);
             }
             tree = safeTree;
-
-            double xbinmax = binPolygon.get(0).x;
-            double xbinmin = binPolygon.get(0).x;
-            double ybinmax = binPolygon.get(0).y;
-            double ybinmin = binPolygon.get(0).y;
-
-            for (int i = 1; i < binPolygon.size(); i++)
-            {
-                if (binPolygon.get(i).x > xbinmax)
-                {
-                    xbinmax = binPolygon.get(i).x;
-                }
-                else if (binPolygon.get(i).x < xbinmin)
-                {
-                    xbinmin = binPolygon.get(i).x;
-                }
-
-                if (binPolygon.get(i).y > ybinmax)
-                {
-                    ybinmax = binPolygon.get(i).y;
-                }
-                else if (binPolygon.get(i).y < ybinmin)
-                {
-                    ybinmin = binPolygon.get(i).y;
-                }
-            }
-            for (int i = 0; i < binPolygon.size(); i++)
-            {
-                binPolygon.get(i).x -= xbinmin;
-                binPolygon.get(i).y -= ybinmin;
-            }
-
-
-            double binPolygonWidth = xbinmax - xbinmin;
-            double binPolygonHeight = ybinmax - ybinmin;
-
+            //计算多边形的面积。如果面积值大于零，说明多边形方向为反方向，需要进行方向转换，但是为什么要做这个操作呢？
             if (GeometryUtil.polygonArea(binPolygon) > 0)
             {
                 binPolygon.reverse();
@@ -183,8 +153,9 @@ namespace NestingLibPort
                     }
                 }
             }
-            double sumarea = 0;
-            double totalarea = 0;
+            double sumarea = 0;//底板多边形的面积
+            double totalarea = 0;//放置所有零件的面积
+            //placements中的Count数据就代表了使用了几个底板的数量，如果一个底板大小不够放置所有零件，那系统会自动增加一个底板
             for (int i = 0; i < best.placements.Count; i++)
             {
                 totalarea += Math.Abs(GeometryUtil.polygonArea(binPolygon));
@@ -209,8 +180,8 @@ namespace NestingLibPort
 
         /**
          *  一次迭代计算
-         * @param tree  底板
-         * @param binPolygon    板件列表
+         * @param tree  板件列表（去掉了带孔的多边形内孔的点集）
+         * @param binPolygon    底板
          * @param config    设置
          * @return
          */
@@ -222,15 +193,16 @@ namespace NestingLibPort
             {
 
                 List<NestPath> adam = new List<NestPath>();
-                foreach (NestPath nestPath in tree)
+                foreach (var nestPath in tree)
                 {
-                    NestPath clone = new NestPath(nestPath);
+                    var clone = new NestPath(nestPath);
                     adam.Add(clone);
                 }
                 foreach (NestPath nestPath in adam)
                 {
                     nestPath.area = GeometryUtil.polygonArea(nestPath);
                 }
+                //按零件的面积由大到小排序
                 adam.Sort((x,y)=>x.area.CompareTo(y.area));
                 //Collections.sort(adam);
                 GA = new GeneticAlgorithm(adam, binPolygon, config);
@@ -274,12 +246,15 @@ namespace NestingLibPort
             for (int i = 0; i < placelist.Count; i++)
             {
                 NestPath part = placelist[i];
+                //这个是零件和底板之间形成的nfp，所以inside这个参数为true
                 key = new NfpKey(binPolygon.getId(), part.getId(), true, 0, part.getRotation());
                 if (!nfpCache.ContainsKey(serialize.Serialize(key)))
                     nfpPairs.Add(new NfpPair(binPolygon, part, key));
                 else
                 {
                 }
+
+                //这个是零件之间相互形成的nfp，所以inside这个参数为false
                 for (int j = 0; j < i; j++)
                 {
                     NestPath placed = placelist[j];

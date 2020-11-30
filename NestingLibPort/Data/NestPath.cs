@@ -222,6 +222,7 @@ namespace NestingLibPort.Data
             }
         }
 
+        //将自相交多边形转化为简单多边形
         public static NestPath cleanNestPath(NestPath srcPath)
         {
             /**
